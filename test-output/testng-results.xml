@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="11" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-17T13:08:54 IST" name="Default suite" finished-at="2023-03-17T13:09:47 IST" duration-ms="53269">
+    <groups>
+    </groups>
+    <test started-at="2023-03-17T13:08:54 IST" name="Default test" finished-at="2023-03-17T13:09:47 IST" duration-ms="53269">
+      <class name="com.TestNG_Nykaa_Project.Nykaa_TestNG">
+        <test-method signature="browserlaunch()[pri:0, instance:com.TestNG_Nykaa_Project.Nykaa_TestNG@4738a206]" started-at="2023-03-17T13:08:54 IST" name="browserlaunch" finished-at="2023-03-17T13:08:56 IST" duration-ms="1567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="urllaunch()[pri:1, instance:com.TestNG_Nykaa_Project.Nykaa_TestNG@4738a206]" started-at="2023-03-17T13:08:56 IST" name="urllaunch" finished-at="2023-03-17T13:08:59 IST" duration-ms="3137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urllaunch -->
+        <test-method signature="signIn()[pri:2, instance:com.TestNG_Nykaa_Project.Nykaa_TestNG@4738a206]" started-at="2023-03-17T13:08:59 IST" name="signIn" finished-at="2023-03-17T13:08:59 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="verify_Login()[pri:3, instance:com.TestNG_Nykaa_Project.Nykaa_TestNG@4738a206]" started-at="2023-03-17T13:08:59 IST" name="verify_Login" finished-at="2023-03-17T13:09:20 IST" duration-ms="21106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login -->
+        <test-method signature="select_Product()[pri:4, instance:com.TestNG_Nykaa_Project.Nykaa_TestNG@4738a206]" started-at="2023-03-17T13:09:20 IST" name="select_Product" finished-at="2023-03-17T13:09:32 IST" duration-ms="11541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Product -->
+        <test-method signature="add_To_Cart()[pri:0, instance:com.TestNG_Nykaa_Project.Nykaa_TestNG@4738a206]" started-at="2023-03-17T13:09:32 IST" name="add_To_Cart" finished-at="2023-03-17T13:09:40 IST" depends-on-methods="com.TestNG_Nykaa_Project.Nykaa_TestNG.select_Product" duration-ms="8399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_To_Cart -->
+        <test-method signature="add_Address()[pri:0, instance:com.TestNG_Nykaa_Project.Nykaa_TestNG@4738a206]" started-at="2023-03-17T13:09:40 IST" name="add_Address" finished-at="2023-03-17T13:09:47 IST" depends-on-methods="com.TestNG_Nykaa_Project.Nykaa_TestNG.add_To_Cart" duration-ms="6589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_Address -->
+        <test-method signature="close_Window()[pri:8, instance:com.TestNG_Nykaa_Project.Nykaa_TestNG@4738a206]" started-at="2023-03-17T13:09:47 IST" name="close_Window" finished-at="2023-03-17T13:09:47 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Window -->
+        <test-method signature="quit_Browser()[pri:9, instance:com.TestNG_Nykaa_Project.Nykaa_TestNG@4738a206]" started-at="2023-03-17T13:09:47 IST" name="quit_Browser" finished-at="2023-03-17T13:09:47 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_Browser -->
+      </class> <!-- com.TestNG_Nykaa_Project.Nykaa_TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
